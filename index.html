@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>聖誕來找碴</title>
+
+    <link rel="stylesheet" type="text/css" href="scss/style.css">
+</head>
+
+<body>
+
+
+    <div class="main">
+        <div class="game_wrap">
+            <div class="bg"></div>
+            <div class="spark" id="particles-js"></div>
+            <div class="picA"></div>
+            <div class="picB">
+                <!-- 滑雪板 -->
+                <div id="err2"></div>
+                <!-- 聖誕老人 -->
+                <div id="err1"></div>
+                <!-- 狗狗 -->
+                <div id="err3"></div>
+                <!-- 雪獅 -->
+                <div id="err4"></div>
+                <!-- 草莓蛋糕 -->
+                <div id="err5"></div>
+                <!-- 金幣 -->
+                <div id="err7"></div>
+                <!-- 臭襪子 -->
+                <div id="err6"></div>
+                <!-- 糖果 -->
+                <div id="err8_1" class="err8"></div>
+                <div id="err8_2" class="err8"></div>
+                <div id="err8_3" class="err8"></div>
+                <!-- 枴杖糖 -->
+                <div id="err9_1" class="err9"></div>
+                <div id="err9_2" class="err9"></div>
+                <div id="err9_3" class="err9"></div>
+                <div class="circles">
+                    <div class="c1"></div>
+                    <div class="c2"></div>
+                    <div class="c3"></div>
+                    <div class="c4"></div>
+                    <div class="c5"></div>
+                    <div class="c6"></div>
+                    <div class="c7"></div>
+                    <div class="c8"></div>
+                    <div class="c9"></div>
+                </div>
+                <div class="poppage"></div>
+            </div>
+        </div>
+        <div class="teams">
+            <div class="team1">
+                <div></div>
+                <p>0</p>
+            </div>
+            <div class="team2">
+                <div></div>
+                <p>0</p>
+            </div>
+            <div class="team3">
+                <div></div>
+                <p>0</p>
+            </div>
+            <div class="team4">
+                <div></div>
+                <p>0</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <audio id="bgm" src="img/bgm.mp3"  loop autoplay></audio>
+    <audio id="yes" src="img/yes.mp3"></audio>
+    <audio id="beep" src="img/beep.mp3"></audio>
+    <audio id="bom" src="img/bom.mp3"></audio>
+    <audio id="boo" src="img/boo.mp3"></audio>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'js/particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+</body>
+
+</html>
