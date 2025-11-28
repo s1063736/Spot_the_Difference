@@ -38,7 +38,7 @@ body {
             .spark {
                 position: absolute;
                 width: 100%;
-                height: 100%;
+                height: 90%;
                 pointer-events: none;
             }
 
@@ -250,7 +250,7 @@ body {
                     height: 100%;
                     filter: drop-shadow(0 0 5px #462929) drop-shadow(0 0 20px #632929);
                     display: none;
-                    background: url(../img/err1.png)no-repeat center / contain;
+                    background: url(../img/err1.webp)no-repeat center / contain;
                 }
             }
         }
