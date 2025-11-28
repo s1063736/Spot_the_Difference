@@ -247,7 +247,7 @@ body .main .teams > div div {
   height: 100%;
   background: url(../img/team1.png) no-repeat center/contain;
 }
-body .main .teams > div:active {
+body .main .teams > div div:active {
   transform: translateY(-10px);
 }
 body .main .teams .team2 div {

@@ -280,10 +280,10 @@ body {
                     width: 25vh;
                     height: 100%;
                     background: url(../img/team1.png)no-repeat center / contain;
-                }
 
-                &:active{
-                    transform: translateY(-10px);
+                    &:active {
+                        transform: translateY(-10px);
+                    }
                 }
             }
 
