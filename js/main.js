@@ -55,7 +55,7 @@ $('#err1').on("click", function () {
     $('.poppage,.c1').fadeIn(200)
     yesAudio.play()
     $('.poppage').css({
-        'background-image': 'url(img/err1.png)'
+        'background-image': 'url(img/err1.webp)'
     })
     $(this).css("pointer-events", "none")
 })
@@ -64,7 +64,7 @@ $('#err2').on("click", function () {
     $('.poppage,.c2').fadeIn(200)
     yesAudio.play()
     $('.poppage').css({
-        'background-image': 'url(img/err2.png)'
+        'background-image': 'url(img/err2.webp)'
     })
     $(this).css("pointer-events", "none")
 })
@@ -73,7 +73,7 @@ $('#err3').on("click", function () {
     $('.poppage,.c3').fadeIn(200)
     yesAudio.play()
     $('.poppage').css({
-        'background-image': 'url(img/err3.png)'
+        'background-image': 'url(img/err3.webp)'
     })
     $(this).css("pointer-events", "none")
 })
@@ -82,7 +82,7 @@ $('#err4').on("click", function () {
     $('.poppage,.c4').fadeIn(200)
     yesAudio.play()
     $('.poppage').css({
-        'background-image': 'url(img/err4.png)'
+        'background-image': 'url(img/err4.webp)'
     })
     $(this).css("pointer-events", "none")
 })
@@ -91,7 +91,7 @@ $('#err5').on("click", function () {
     $('.poppage,.c5').fadeIn(200)
     yesAudio.play()
     $('.poppage').css({
-        'background-image': 'url(img/err5.png)'
+        'background-image': 'url(img/err5.webp)'
     })
     $(this).css("pointer-events", "none")
 })
@@ -100,7 +100,7 @@ $('#err6').on("click", function () {
     $('.poppage,.c6').fadeIn(200)
     yesAudio.play()
     $('.poppage').css({
-        'background-image': 'url(img/err6.png)'
+        'background-image': 'url(img/err6.webp)'
     })
     $(this).css("pointer-events", "none")
 })
@@ -109,7 +109,7 @@ $('#err7').on("click", function () {
     $('.poppage,.c7').fadeIn(200)
     yesAudio.play()
     $('.poppage').css({
-        'background-image': 'url(img/err7.png)'
+        'background-image': 'url(img/err7.webp)'
     })
     $(this).css("pointer-events", "none")
 })
@@ -118,7 +118,7 @@ $('#err8_1,#err8_2,#err8_3').on("click", function () {
     $('.poppage,.c8').fadeIn(200)
     yesAudio.play()
     $('.poppage').css({
-        'background-image': 'url(img/err8.png)'
+        'background-image': 'url(img/err8.webp)'
     })
     $('.err8').css("pointer-events", "none")
 })
@@ -127,7 +127,7 @@ $('#err9_1,#err9_2,#err9_3').on("click", function () {
     $('.poppage,.c9').fadeIn(200)
     yesAudio.play()
     $('.poppage').css({
-        'background-image': 'url(img/err9.png)'
+        'background-image': 'url(img/err9.webp)'
     })
     $('.err9').css("pointer-events", "none")
 })
