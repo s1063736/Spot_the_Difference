@@ -14,7 +14,7 @@ $('body').on('click', function () {
 
 
 // 計分數
-$('.teams > div').on("click", function () {
+$('.teams > div > div').on("click", function () {
     let i = Math.floor(Math.random() * 3) + 1
     console.log(i)
     switch(i){
@@ -28,22 +28,22 @@ $('.teams > div').on("click", function () {
     
 })
 
-$('.team1').on("click", function () {
+$('.team1 > div').on("click", function () {
     score[0]++
     $('.team1 > p').html(score[0])
 })
 
-$('.team2').on("click", function () {
+$('.team2 > div').on("click", function () {
     score[1]++
     $('.team2 > p').html(score[1])
 })
 
-$('.team3').on("click", function () {
+$('.team3 > div').on("click", function () {
     score[2]++
     $('.team3 > p').html(score[2])
 })
 
-$('.team4').on("click", function () {
+$('.team4 > div').on("click", function () {
     score[3]++
     $('.team4 > p').html(score[3])
 })
