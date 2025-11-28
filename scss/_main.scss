@@ -52,6 +52,99 @@ body {
 
             .picA {
                 border-right: #750000 5px solid;
+
+
+                .circles {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    pointer-events: none;
+
+                    & div {
+                        position: absolute;
+                        border: rgb(255, 0, 0) 5px solid;
+                        border-radius: 100%;
+                        display: none;
+                    }
+
+                    .c1 {
+                        top: 2%;
+                        right: 5%;
+                        width: 20%;
+                        height: 22%;
+                    }
+
+                    .c2 {
+                        top: 21%;
+                        right: 8%;
+                        width: 16%;
+                        height: 11%;
+                    }
+
+                    .c3 {
+                        top: 24%;
+                        right: 28%;
+                        width: 26%;
+                        height: 20%;
+                    }
+
+                    .c4 {
+                        top: 36%;
+                        right: 5%;
+                        width: 16%;
+                        height: 21%;
+                    }
+
+                    .c5 {
+                        bottom: 2%;
+                        right: 3%;
+                        width: 30%;
+                        height: 22%;
+                    }
+
+                    .c6 {
+                        top: 27%;
+                        left: 6%;
+                        width: 23%;
+                        height: 27%;
+                    }
+
+                    .c7 {
+                        top: 21%;
+                        left: 0%;
+                        width: 16%;
+                        height: 12%;
+                    }
+
+                    .c8 {
+                        bottom: 4%;
+                        left: 16%;
+                        width: 20%;
+                        height: 15%;
+                    }
+
+                    .c9 {
+                        bottom: 0%;
+                        left: 32%;
+                        width: 19%;
+                        height: 15%;
+                    }
+                }
+
+                .corpage {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 70%;
+                    height: 100%;
+                    filter: drop-shadow(0 0 5px #462929) drop-shadow(0 0 20px #632929);
+                    display: none;
+                    background: url(../img/err1.webp)no-repeat center / contain;
+                }
             }
 
             .picB {
@@ -241,7 +334,7 @@ body {
                     }
                 }
 
-                .poppage {
+                .errpage {
                     position: absolute;
                     top: 50%;
                     left: 50%;
@@ -253,6 +346,21 @@ body {
                     background: url(../img/err1.webp)no-repeat center / contain;
                 }
             }
+
+            .text {
+                position: absolute;
+                top: 3vh;
+                width: 100%;
+                background: transparent;
+                font-size: 18vh;
+                line-height: 1;
+                font-family: "Cherry Bomb One", system-ui;
+                text-align: center;
+                color: #fff;
+                -webkit-text-stroke: #007500 6px;
+                filter: drop-shadow(0 0 20px #18461a);
+                display: none;
+            }
         }
 
         .teams {
@@ -263,7 +371,6 @@ body {
             &>div {
                 width: 100%;
                 height: 25%;
-                cursor: pointer;
                 display: flex;
                 flex-direction: row-reverse;
 
@@ -280,6 +387,7 @@ body {
                     width: 25vh;
                     height: 100%;
                     background: url(../img/team1.png)no-repeat center / contain;
+                    cursor: pointer;
 
                     &:active {
                         transform: translateY(-10px);

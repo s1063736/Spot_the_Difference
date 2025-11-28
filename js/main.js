@@ -52,86 +52,122 @@ $('.team4 > div').on("click", function () {
 // 找碴
 
 $('#err1').on("click", function () {
-    $('.poppage,.c1').fadeIn(200)
+    $('.pop,.c1').fadeIn(200)
     yesAudio.play()
-    $('.poppage').css({
+    $('.errpage').css({
         'background-image': 'url(img/err1.webp)'
     })
+    $('.corpage').css({
+        'background-image': 'url(img/cor1.webp)'
+    })
     $(this).css("pointer-events", "none")
+    $('.text').html('Santa Claus')
 })
 
 $('#err2').on("click", function () {
-    $('.poppage,.c2').fadeIn(200)
+    $('.pop,.c2').fadeIn(200)
     yesAudio.play()
-    $('.poppage').css({
+    $('.errpage').css({
         'background-image': 'url(img/err2.webp)'
     })
+    $('.corpage').css({
+        'background-image': 'url(img/cor2.webp)'
+    })
     $(this).css("pointer-events", "none")
+    $('.text').html('Sled')
 })
 
 $('#err3').on("click", function () {
-    $('.poppage,.c3').fadeIn(200)
+    $('.pop,.c3').fadeIn(200)
     yesAudio.play()
-    $('.poppage').css({
+    $('.errpage').css({
         'background-image': 'url(img/err3.webp)'
     })
+    $('.corpage').css({
+        'background-image': 'url(img/cor3.webp)'
+    })
     $(this).css("pointer-events", "none")
+    $('.text').html('Reindeer')
 })
 
 $('#err4').on("click", function () {
-    $('.poppage,.c4').fadeIn(200)
+    $('.pop,.c4').fadeIn(200)
     yesAudio.play()
-    $('.poppage').css({
+    $('.errpage').css({
         'background-image': 'url(img/err4.webp)'
     })
+    $('.corpage').css({
+        'background-image': 'url(img/cor4.webp)'
+    })
     $(this).css("pointer-events", "none")
+    $('.text').html('Snowman')
 })
 
 $('#err5').on("click", function () {
-    $('.poppage,.c5').fadeIn(200)
+    $('.pop,.c5').fadeIn(200)
     yesAudio.play()
-    $('.poppage').css({
+    $('.errpage').css({
         'background-image': 'url(img/err5.webp)'
     })
+    $('.corpage').css({
+        'background-image': 'url(img/cor5.webp)'
+    })
     $(this).css("pointer-events", "none")
+    $('.text').html('Yule Log')
 })
 
 $('#err6').on("click", function () {
-    $('.poppage,.c6').fadeIn(200)
+    $('.pop,.c6').fadeIn(200)
     yesAudio.play()
-    $('.poppage').css({
+    $('.errpage').css({
         'background-image': 'url(img/err6.webp)'
     })
+    $('.corpage').css({
+        'background-image': 'url(img/cor6.webp)'
+    })
     $(this).css("pointer-events", "none")
+    $('.text').html('Stockings')
 })
 
 $('#err7').on("click", function () {
-    $('.poppage,.c7').fadeIn(200)
+    $('.pop,.c7').fadeIn(200)
     yesAudio.play()
-    $('.poppage').css({
+    $('.errpage').css({
         'background-image': 'url(img/err7.webp)'
     })
+    $('.corpage').css({
+        'background-image': 'url(img/cor7.webp)'
+    })
     $(this).css("pointer-events", "none")
+    $('.text').html('Gifts')
 })
 
 $('#err8_1,#err8_2,#err8_3').on("click", function () {
-    $('.poppage,.c8').fadeIn(200)
+    $('.pop,.c8').fadeIn(200)
     yesAudio.play()
-    $('.poppage').css({
+    $('.errpage').css({
         'background-image': 'url(img/err8.webp)'
     })
+    $('.corpage').css({
+        'background-image': 'url(img/cor8.webp)'
+    })
     $('.err8').css("pointer-events", "none")
+    $('.text').html('Gingerbread Man')
 })
 
 $('#err9_1,#err9_2,#err9_3').on("click", function () {
-    $('.poppage,.c9').fadeIn(200)
+    $('.pop,.c9').fadeIn(200)
     yesAudio.play()
-    $('.poppage').css({
+    $('.errpage').css({
         'background-image': 'url(img/err9.webp)'
     })
+    $('.corpage').css({
+        'background-image': 'url(img/cor9.webp)'
+    })
     $('.err9').css("pointer-events", "none")
+    $('.text').html('Candy Cane')
 })
 
-$('.poppage').on("click", function () {
-    $(this).fadeOut(200)
+$('.pop').on("click", function () {
+    $('.pop').fadeOut(200)
 })
