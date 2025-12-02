@@ -3,6 +3,15 @@ let yesAudio = $('#yes')[0],
     b1Audio = $('#beep')[0],
     b2Audio = $('#bom')[0],
     b3Audio = $('#boo')[0],
+    SantaAudio = $('#Santa')[0],
+    SledAudio = $('#Sled')[0],
+    ReindeerAudio = $('#Reindeer')[0],
+    SnowmanAudio = $('#Snowman')[0],
+    YuleAudio = $('#Yule')[0],
+    GiftsAudio = $('#Gifts')[0],
+    StockingsAudio = $('#Stockings')[0],
+    CandyAudio = $('#Candy')[0],
+    GingerbreadAudio = $('#Gingerbread')[0],
     bgm = $('#bgm')[0],
     score = [0, 0, 0, 0]
 
@@ -17,15 +26,15 @@ $('body').on('click', function () {
 $('.teams > div > div').on("click", function () {
     let i = Math.floor(Math.random() * 3) + 1
     console.log(i)
-    switch(i){
+    switch (i) {
         case 1: b1Audio.play()
-                break;
+            break;
         case 2: b2Audio.play()
-                break;
+            break;
         case 3: b3Audio.play()
-                break;
+            break;
     }
-    
+
 })
 
 $('.team1 > div').on("click", function () {
@@ -54,6 +63,9 @@ $('.team4 > div').on("click", function () {
 $('#err1').on("click", function () {
     $('.pop,.c1').fadeIn(200)
     yesAudio.play()
+    setTimeout(() => {
+        SantaAudio.play()
+    }, 500);
     $('.errpage').css({
         'background-image': 'url(img/err1.webp)'
     })
@@ -67,6 +79,9 @@ $('#err1').on("click", function () {
 $('#err2').on("click", function () {
     $('.pop,.c2').fadeIn(200)
     yesAudio.play()
+    setTimeout(() => {
+        SledAudio.play()
+    }, 500);
     $('.errpage').css({
         'background-image': 'url(img/err2.webp)'
     })
@@ -80,6 +95,9 @@ $('#err2').on("click", function () {
 $('#err3').on("click", function () {
     $('.pop,.c3').fadeIn(200)
     yesAudio.play()
+    setTimeout(() => {
+        ReindeerAudio.play()
+    }, 500);
     $('.errpage').css({
         'background-image': 'url(img/err3.webp)'
     })
@@ -93,6 +111,9 @@ $('#err3').on("click", function () {
 $('#err4').on("click", function () {
     $('.pop,.c4').fadeIn(200)
     yesAudio.play()
+    setTimeout(() => {
+        SnowmanAudio.play()
+    }, 500);
     $('.errpage').css({
         'background-image': 'url(img/err4.webp)'
     })
@@ -106,6 +127,9 @@ $('#err4').on("click", function () {
 $('#err5').on("click", function () {
     $('.pop,.c5').fadeIn(200)
     yesAudio.play()
+    setTimeout(() => {
+        YuleAudio.play()
+    }, 500);
     $('.errpage').css({
         'background-image': 'url(img/err5.webp)'
     })
@@ -119,6 +143,9 @@ $('#err5').on("click", function () {
 $('#err6').on("click", function () {
     $('.pop,.c6').fadeIn(200)
     yesAudio.play()
+    setTimeout(() => {
+        StockingsAudio.play()
+    }, 500);
     $('.errpage').css({
         'background-image': 'url(img/err6.webp)'
     })
@@ -132,6 +159,9 @@ $('#err6').on("click", function () {
 $('#err7').on("click", function () {
     $('.pop,.c7').fadeIn(200)
     yesAudio.play()
+    setTimeout(() => {
+        GiftsAudio.play()
+    }, 500);
     $('.errpage').css({
         'background-image': 'url(img/err7.webp)'
     })
@@ -145,6 +175,9 @@ $('#err7').on("click", function () {
 $('#err8_1,#err8_2,#err8_3').on("click", function () {
     $('.pop,.c8').fadeIn(200)
     yesAudio.play()
+    setTimeout(() => {
+        GingerbreadAudio.play()
+    }, 500);
     $('.errpage').css({
         'background-image': 'url(img/err8.webp)'
     })
@@ -158,6 +191,9 @@ $('#err8_1,#err8_2,#err8_3').on("click", function () {
 $('#err9_1,#err9_2,#err9_3').on("click", function () {
     $('.pop,.c9').fadeIn(200)
     yesAudio.play()
+    setTimeout(() => {
+        CandyAudio.play()
+    }, 500);
     $('.errpage').css({
         'background-image': 'url(img/err9.webp)'
     })
